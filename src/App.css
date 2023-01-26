@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App .Container {
+  margin: 50px auto;
+  max-width: 800px;
+  background-color: rgb(4, 1, 19);
+  color: white;
+  padding: 50px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pacifico", cursive;
+}
+
+h1,
+h3 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 36px;
+}
+p {
+  margin: 20px auto;
+}
+
+img {
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+.Author {
+  font-family: "Alegreya SC", serif;
+}
+
+footer,
+a {
+  color: rgb(124, 139, 158);
+}
+
+i {
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.PhotoBy {
+  font-size: 8px;
+  margin-bottom: 30px;
+}
+
+.Prayer {
+  background-color: rgba(18, 15, 34, 0.658);
+  padding: 30px 30px;
+  border-radius: 15px;
+}
+
+.Blue,
+.White,
+.Yellow,
+.Red,
+.Green,
+.FourLights,
+.SoftGreen {
+  max-width: 700px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+.Blue {
+  background-color: rgb(12, 12, 170);
+}
+
+.White {
+  background-color: white;
+}
+
+.Yellow {
+  background-color: yellow;
+}
+
+.Red {
+  background-color: rgb(216, 15, 15);
+}
+
+.Green {
+  background-color: rgb(0, 199, 99);
+}
+
+.FourLights {
+  background: conic-gradient(
+    rgb(216, 15, 15),
+    white,
+    #02b3eb,
+    yellow,
+    rgb(216, 15, 15)
+  );
+}
+
+.SoftGreen {
+  background-color: rgb(5, 95, 5);
+}
