@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+// import RIGPA_FULL from "./RIGPA_FULL.js";
+import Piece1 from "./Piece1.js";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <a
+        href="https://marynamarkova.github.io/bardo-ua/"
+        className="icon"
+        title="Go Home"
+      >
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <div className="Container">
+        {/* <RIGPA_FULL /> */}
+        <Piece1 />
+
+        <div3 className="Author">
+          <p>Падмасамбгава </p>
+          <p>«Самовизволення через увагу, яка оголює, – </p>
+          <p>прямий вступ до ріґпа»</p>
+        </div3>
+      </div>
+      <footer>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a
+            href="https://github.com/MarynaMarkova/Bardo/tree/master"
+            className="profileLink"
+            target="_blank"
+            rel="noreferrer"
+            title="Github code"
+          >
+            Open-source
+          </a>
+          {" by "}
+          <a
+            href="https://marynamarkova.github.io/"
+            className="profileLink"
+            target="_blank"
+            rel="noreferrer"
+            title="Personal page"
+          >
+            Maryna Markova
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className="PhotoBy PhotoInside">
+          Photo "Starry Night" by{" "}
+          <a href="https://unsplash.com/@weirick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Jake Weirick
+          </a>{" "}
+          on{" "}
+          <a href="https://unsplash.com/photos/XL0SE4rtRwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
-
-export default App;
