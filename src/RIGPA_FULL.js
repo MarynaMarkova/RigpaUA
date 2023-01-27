@@ -19,6 +19,7 @@ export default function RIGPA_FULL() {
       <h3>1</h3>
       <br />
       <p>Вітаю божеств Трьох Тіл природного ясного ріґпа!</p>
+      <br />
       <p>Буде проповідане </p>
       <p>«САМОВИЗВОЛЕННЯ ЧЕРЕЗ УВАГУ, ЯКА ОГОЛЮЄ, – </p>
       <p>ПРЯМИЙ ВСТУП ДО РІҐПА» </p>
@@ -57,6 +58,9 @@ export default function RIGPA_FULL() {
         Заповіти про вступ до Ріґпа <sup>3</sup>. Ось це пряме введення, що
         миттєво вводить до очевидного стану Переможців.
       </p>
+      <div>
+        <img className="img-fluid" src={BuddhaBodies} alt="BuddhaBodies" />
+      </div>
       <br />
       <hr />
       <em>
@@ -72,9 +76,6 @@ export default function RIGPA_FULL() {
           сумнівів і утримання досягнення.
         </p>
       </em>
-      <div>
-        <img className="img-fluid" src={BuddhaBodies} alt="BuddhaBodies" />
-      </div>
     </div>
   );
 }
