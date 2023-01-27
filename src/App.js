@@ -1,5 +1,6 @@
 // import RIGPA_FULL from "./RIGPA_FULL.js";
 import Piece1 from "./Piece1.js";
+// import RandomNuber from "./RandomNumber";
 import "./App.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       </a>
       <div className="Container">
         {/* <RIGPA_FULL /> */}
+        {/* <RandomNuber /> */}
         <Piece1 />
 
         <div3 className="Author">
