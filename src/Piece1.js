@@ -1,14 +1,12 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import BuddhaBodies from "./img/BuddhaBodies.jpg";
-import rigpa from "./img/rigpa.png";
 
 export default function Piece1() {
   return (
     <div className="Piece1">
       <h1>Падмасамбгава</h1>
-      <div className="Rigpa">
-        <img className="img-fluid" src={rigpa} alt="rigpa" />
-      </div>{" "}
+
       <br />
       <h2>
         <p>«САМОВИЗВОЛЕННЯ ЧЕРЕЗ УВАГУ, </p>
@@ -31,7 +29,9 @@ export default function Piece1() {
       <p>О щасливі діти шляхетних родів! </p>
       <p>Добре слухайте це пряме введення в ваше власне ріґпа.</p>
       <p>
-        Самая ДЖА! ДЖА! ДЖА! <sup>1</sup>
+        Самая ДЖА! ДЖА! ДЖА! {/* <Link to="/Piece1#footnote1"> */}
+        <sup>1</sup>
+        {/* </Link> */}
       </p>
       <br />
       <p>* * * </p>
@@ -64,8 +64,8 @@ export default function Piece1() {
       <hr />
       <em>
         <p>
-          <sup>1</sup> Вигук потрійної печатки, що відзначає потаємність
-          сказаного.
+          <sup id="footnote1">1</sup> Вигук потрійної печатки, що відзначає
+          потаємність сказаного.
         </p>
         <p>
           <sup>2</sup> Вигук радісного захоплення.
