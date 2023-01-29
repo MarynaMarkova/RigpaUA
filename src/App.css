@@ -74,6 +74,10 @@ i {
   left: 30px;
 }
 
+.term {
+  color: rgb(0, 214, 214);
+}
+
 .PhotoBy {
   font-size: 8px;
   margin-bottom: 30px;
