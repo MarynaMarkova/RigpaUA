@@ -7,6 +7,7 @@ import mirror from "./img/mirror.png";
 import cosmos from "./img/cosmos.jpg";
 import buddhaMirror from "./img/buddhaMirror.jpg";
 import mirrorMeadow from "./img/mirrorMeadow.jpg";
+import mindSpace from "./img/mindSpace.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -336,7 +337,7 @@ export default function RIGPA_FULL() {
         <p>Безсутнє це сум’яття, немов порив вітру. </p>
         <p>Так чи не так? Зазирни в свій розум. </p>
         <br />
-        <p>Воістину, що ні з’являється, з’являється природно. </p>
+        <p>Воістину, що не з’являється, з’являється природно. </p>
         <p>Ці прояви виникають природно, </p>
         <p>Мов відображення в люстерці, що лише прикрашає його. </p>
         <p>Так чи не так? Зазирни в свій розум. </p>
@@ -349,6 +350,30 @@ export default function RIGPA_FULL() {
       </div>
       <div>
         <img className="img-fluid" src={mirrorMeadow} alt="mirrorMeadow" />
+      </div>
+      <h3>7</h3>
+      <br />
+      <div className="Prayer">
+        <p>Скільки не шукай, знайдеш лише розум. </p>
+        <p>Де знайдеш того, хто споглядає, іншого, ніж споглядання? </p>
+        <br />
+        <p>Скільки не шукай, знайдеш лише розум. </p>
+        <p>Де знайдеш того, хто практикує, іншого, ніж сама практика? </p>
+        <br />
+        <p>Скільки не шукай, знайдеш лише розум. </p>
+        <p>
+          Де знайдеш того, хто охороняє обітниці, іншого, ніж самі обітниці?
+        </p>
+        <br />
+        <p>Скільки не шукай, знайдеш лише розум. </p>
+        <p>Де знайдеш того, хто реалізує, іншого, ніж плід, що реалізується?</p>
+        <br />
+        <p>Дивись ж бо, дивись! </p>
+        <p>Пильно вдивляйся в свій розум!</p>
+        <br />
+      </div>
+      <div>
+        <img className="img-fluid" src={mindSpace} alt="mindSpace" />
       </div>
       <br />
       <hr />
