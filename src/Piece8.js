@@ -4,7 +4,7 @@ import mindSpace from "./img/mindSpace.jpg";
 export default function Piece8() {
   return (
     <div className="Piece8">
-      <h3>7</h3>
+      <h3>8</h3>
       <br />
       <div className="Prayer">
         <p>Скільки не шукай, знайдеш лише розум. </p>
