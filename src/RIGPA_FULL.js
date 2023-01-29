@@ -4,6 +4,7 @@ import rigpa from "./img/rigpa.png";
 import brain_mirror from "./img/brain_mirror.jpg";
 import mind from "./img/mind.png";
 import mirror from "./img/mirror.png";
+import cosmos from "./img/cosmos.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -234,6 +235,26 @@ export default function RIGPA_FULL() {
       </p>
       <div>
         <img className="img-fluid" src={mind} alt="mind" />
+      </div>
+      <h3>5</h3>
+      <br />
+      <p>Три Тіла неподільні й повні в єдності.</p>
+      <br />
+      <p>
+        Нетварність – шун’ята <em className="term">дгармакаї</em>.{" "}
+      </p>
+      <p>
+        Природній блискіт шун’яти – ясність{" "}
+        <em className="term">самбгоґакаї</em>.{" "}
+      </p>
+      <p>
+        Ясність, яка не знає перешкод, – явленість{" "}
+        <em className="term">нірманакаї</em>.{" "}
+      </p>
+      <br />
+      <p>Три повні в єдності, це й є сутність.</p>
+      <div>
+        <img className="img-fluid" src={cosmos} alt="cosmos" />
       </div>
       <br />
       <hr />
