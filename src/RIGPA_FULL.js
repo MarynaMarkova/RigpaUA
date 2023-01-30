@@ -10,6 +10,8 @@ import mirrorMeadow from "./img/mirrorMeadow.jpg";
 import mindSpace from "./img/mindSpace.jpg";
 import manSpace from "./img/manSpace.png";
 import buddhaLight from "./img/buddhaLight.jpg";
+import water from "./img/water.jpg";
+import Kolisnytsja from "./img/Kolisnytsja.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -441,6 +443,45 @@ export default function RIGPA_FULL() {
 
       <div>
         <img className="img-fluid" src={water} alt="water" />
+      </div>
+      <h3>12</h3>
+      <br />
+      <p>Тепер наставлю про чотири безпомилкові колісниці. </p>
+      <br />
+      <div className="Prayer">
+        <p>Ясність сюхвилинного усвідомлення – </p>
+        <p>
+          це велика колісниця безпомилкового{" "}
+          <em className="term">світогляду</em>.{" "}
+        </p>
+        <p>Оскільки ця ясність безпомилкова, </p>
+        <p>то її звуть колісницею. </p>
+        <br />
+        <p>Ясність сюхвилинного усвідомлення – </p>
+        <p>
+          це велика колісниця безпомилкового{" "}
+          <em className="term">споглядання</em>.{" "}
+        </p>
+        <p>Оскільки ця ясність безпомилкова, </p>
+        <p>то її звуть колісницею. </p>
+        <br />
+        <p>Ясність сюхвилинної Мудрості – </p>
+        <p>
+          це велика колісниця безпомилкової <em className="term">практики</em>.{" "}
+        </p>
+        <p>Оскільки ця ясність безпомилкова, </p>
+        <p>то її звуть колісницею. </p>
+        <br />
+        <p>Ясність сюхвилинного усвідомлення – </p>
+        <p>
+          це велика колісниця безпомилкового <em className="term">плоду</em>.{" "}
+        </p>
+        <p>Оскільки ця ясність безпомилкова, </p>
+        <p>то її звуть колісницею.</p>
+      </div>
+
+      <div>
+        <img className="img-fluid" src={Kolisnytsja} alt="Kolisnytsja" />
       </div>
       <br />
       <hr />
