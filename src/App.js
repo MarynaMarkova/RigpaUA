@@ -1,6 +1,6 @@
 // import RIGPA_FULL from "./RIGPA_FULL.js";
 import rigpa from "./img/rigpa.png";
-import Piece9 from "./Piece9.js";
+import Piece10 from "./Piece10.js";
 // import RandomNuber from "./RandomNumber";
 import "./App.css";
 
@@ -20,7 +20,7 @@ export default function App() {
         </div>{" "}
         {/* <RIGPA_FULL /> */}
         {/* <RandomNuber /> */}
-        <Piece9 />
+        <Piece10 />
         <div3 className="Author">
           <p>Падмасамбгава </p>
           <p>«Самовизволення через увагу, яка оголює, – </p>
