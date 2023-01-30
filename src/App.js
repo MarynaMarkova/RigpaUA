@@ -1,6 +1,6 @@
 // import RIGPA_FULL from "./RIGPA_FULL.js";
 import rigpa from "./img/rigpa.png";
-import Piece10 from "./Piece10.js";
+import Piece11 from "./Piece11.js";
 // import RandomNuber from "./RandomNumber";
 import "./App.css";
 
@@ -12,7 +12,7 @@ export default function App() {
         className="icon"
         title="Go Home"
       >
-        <i class="fa-solid fa-house"></i>
+        <i className="fa-solid fa-house"></i>
       </a>
       <div className="Container">
         <div className="Rigpa">
@@ -20,12 +20,12 @@ export default function App() {
         </div>{" "}
         {/* <RIGPA_FULL /> */}
         {/* <RandomNuber /> */}
-        <Piece10 />
-        <div3 className="Author">
+        <Piece11 />
+        <div className="Author">
           <p>Падмасамбгава </p>
           <p>«Самовизволення через увагу, яка оголює, – </p>
           <p>прямий вступ до ріґпа»</p>
-        </div3>
+        </div>
       </div>
       <footer>
         <p>

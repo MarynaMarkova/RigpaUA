@@ -4,7 +4,7 @@ import buddhaLight from "./img/buddhaLight.jpg";
 export default function Piece10() {
   return (
     <div className="Piece10">
-      <h3>9</h3>
+      <h3>10</h3>
       <br />
       <div className="Prayer">
         <p>Дивовижно! </p>
