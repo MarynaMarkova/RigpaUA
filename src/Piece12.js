@@ -1,9 +1,9 @@
 import React from "react";
 import Kolisnytsja from "./img/Kolisnytsja.jpg";
 
-export default function Piece11() {
+export default function Piece12() {
   return (
-    <div className="Piece11">
+    <div className="Piece12">
       <h3>12</h3>
       <br />
       <p>Тепер наставлю про чотири безпомилкові колісниці. </p>
