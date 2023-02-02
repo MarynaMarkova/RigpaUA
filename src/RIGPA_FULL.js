@@ -14,6 +14,7 @@ import water from "./img/water.jpg";
 import Kolisnytsja from "./img/Kolisnytsja.jpg";
 import zvyah from "./img/zvyah.png";
 import clearSky from "./img/clearSky.jpg";
+import meditator from "./img/meditator.png";
 
 export default function RIGPA_FULL() {
   return (
@@ -582,6 +583,30 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={clearSky} alt="clearSky" />
+        </div>
+        <h3>15</h3>
+        <br />
+        <p>Настанова, яка веде до виснаження шести крайнощів. </p>
+        <p>
+          Багато є поглядів, які не згодні один із одним. Але твій розум,
+          природна ріґпа, є самовиникненою мудрістю, де погляд і споглядач
+          неподвійні.
+        </p>
+        <div className="Prayer">
+          <p>Шукай того, хто тримається погляду, – </p>
+          <p>Ось шукав його та не знайшов. </p>
+          <p>Цієї миті досяг припинення поглядів. </p>
+          <p>Немає більше поглядів – наздобув себе. </p>
+        </div>
+        <p>
+          Без споглядання й без об’єкту споглядання, та не впадаючи в байдужість
+          безпочаткової шун’ї, сюхвилинне усвідомлення ясне.{" "}
+        </p>
+        <p>Такий є погляд Великої Досконалості. </p>
+        <p>Думати чи не думати – яка різниця.</p>
+        <br />
+        <div>
+          <img className="img-fluid" src={meditator} alt="meditator" />
         </div>
         <br />
         <hr />
