@@ -15,6 +15,7 @@ import Kolisnytsja from "./img/Kolisnytsja.jpg";
 import zvyah from "./img/zvyah.png";
 import clearSky from "./img/clearSky.jpg";
 import meditator from "./img/meditator.png";
+import DalaiLama from "./img/DalaiLama.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -607,6 +608,29 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={meditator} alt="meditator" />
+        </div>
+        <h3>16</h3>
+        <br />
+        <p>
+          Багато є поглядів, які не згодні один із одним. Але твоє природне
+          усвідомлення нехитро й безпосередньо. Споглядання й споглядач
+          неподвійні.{" "}
+        </p>
+        <div className="Prayer">
+          <p>Шукай того, хто споглядає або не споглядає – </p>
+          <p>Ось шукав його та не знайшов. </p>
+          <p>Цієї миті досяг припинення споглядання. </p>
+          <p>Немає більше споглядання – наздобув себе. </p>
+        </div>
+        <p>
+          Без споглядання й об’єкту споглядання, та не впадаючи в затьмарення,
+          сонливість або збудження, нічого не поліпшуюче сюхвилинне усвідомлення
+          ясне. Ця рівнісність без поліпшення й є дг’яною.{" "}
+        </p>
+        <p>Встановлення чи невстановлення розуму – яка різниця.</p>
+        <br />
+        <div>
+          <img className="img-fluid" src={DalaiLama} alt="DalaiLama" />
         </div>
         <br />
         <hr />
