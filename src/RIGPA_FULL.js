@@ -13,6 +13,7 @@ import buddhaLight from "./img/buddhaLight.jpg";
 import water from "./img/water.jpg";
 import Kolisnytsja from "./img/Kolisnytsja.jpg";
 import zvyah from "./img/zvyah.png";
+import clearSky from "./img/clearSky.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -167,13 +168,13 @@ export default function RIGPA_FULL() {
         мудрістю.{" "}
       </p>
       <p>
-        Хто кличе <em className="term">сугатагарбгою</em> — насінням сугати.{" "}
+        Хто кличе <em className="term">суґатаґарбгою</em> — насінням суґати.{" "}
       </p>
       <p>
         Хто кличе <em className="term">магамудрою</em> — великим символом.{" "}
       </p>
       <p>
-        Хто кличе <em className="term">самотнім тіглем</em> — унікальною сферою.{" "}
+        Хто кличе <em className="term">самотнім тіґлем</em> — унікальною сферою.{" "}
       </p>
       <p>
         Хто кличе <em className="term">дгармадгатою</em> — дгармовим простором.{" "}
@@ -470,7 +471,6 @@ export default function RIGPA_FULL() {
           </p>
           <br />
         </div>
-
         <div>
           <img className="img-fluid" src={water} alt="water" />
         </div>
@@ -510,11 +510,9 @@ export default function RIGPA_FULL() {
           <p>Оскільки ця ясність безпомилкова, </p>
           <p>то її звуть колісницею.</p>
         </div>
-
         <div>
           <img className="img-fluid" src={Kolisnytsja} alt="Kolisnytsja" />
         </div>
-
         <h3>13</h3>
         <br />
         <p>Тепер про чотирьох непохитних, відомих як «цвяхи».</p>
@@ -549,11 +547,42 @@ export default function RIGPA_FULL() {
           <p>то її звуть цвяхом.</p>
           <br />
         </div>
-
         <div>
           <img className="img-fluid" src={zvyah} alt="zvyah" />
         </div>
-
+        <h3>14</h3>
+        <br />
+        <p>Тепер упадеша, яка вчить, що три часи єдині.</p>
+        <div className="Prayer">
+          <p>Не дій за попередніми шаблонами,</p>{" "}
+          <p>Відкинь думки про минуле. </p> <p>Не загадуй на майбутнє, </p>{" "}
+          <p>Досить чиплятися розумом за фантазії. </p>{" "}
+          <p>Не хапайся за теперішнє, </p>{" "}
+          <p>Спочивай у безтурботності неба. </p> <p>«Немає споглядання» – </p>{" "}
+          <p>Значить, не споглядай нічого. </p> <p>«Немає відволікання» – </p>{" "}
+          <p>Значить, не відволікаючись, пам’ятай. </p> <p>Так наставлю.</p>
+        </div>
+        <p>
+          Не споглядаючи, не відволікаючись, зазирни в свій розум, оголюючи його
+          дійсну природу.{" "}
+        </p>{" "}
+        <p>
+          Природна ріґпа, природне усвідомлення, природна ясність виникає,
+          виблискуючи. Це й зветься бодгичита.{" "}
+        </p>
+        <div className="Prayer">
+          {" "}
+          <p>Це не-споглядання не можна помислити. </p>{" "}
+          <p>Це не-відволікання – ясність сутності. </p>{" "}
+          <p>Порожнеча проявів – самозвільнення. </p>{" "}
+          <p>Порожнеча ясності – дгармакая. </p> <p>Коли же стане очевидно, </p>{" "}
+          <p>Що цього не набути на шляху Будди, </p>{" "}
+          <p>Тієї же самої миті пізнаєш Ваджрасатву.</p>
+        </div>
+        <br />
+        <div>
+          <img className="img-fluid" src={clearSky} alt="clearSky" />
+        </div>
         <br />
         <hr />
         <em>
