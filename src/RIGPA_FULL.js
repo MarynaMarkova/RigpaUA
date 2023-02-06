@@ -20,6 +20,7 @@ import practise from "./img/practise.jpg";
 import BuddhaLono from "./img/BuddhaLono.jpg";
 import BuddhaSquirrel from "./img/BuddhaSquirrel.jpg";
 import duck from "./img/duck.jpeg";
+import WaterStream from "./img/WaterStream.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -797,6 +798,34 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={duck} alt="duck" />
+        </div>
+        <h3>21</h3>
+        <br />
+        <p>
+          Все це розмаїття явленого є лише відносна істина. Жодного з цих явищ
+          насправді не існує, вони миттєво зникають.{" "}
+        </p>
+        <p>
+          Усе явлене буття – й самсара, й нірвана – є лише тільки природою
+          розуму, що являється сама собі й споглядає сама себе.{" "}
+        </p>
+        <p>
+          Коли потік свідомості змінюється в своєму русі, то відповідно до цих
+          змін перед розумом постають явища, які сприймаються як зовнішні.{" "}
+        </p>
+        <p>
+          Таким чином, усе є не що інше, як розум, який споглядає власне явище.
+        </p>
+        <p>Кожний із шести класів живих істот бачить ці явища по-своєму. </p>
+        <p>Тиртики розглядають із точки зору вічності й припинення. </p>
+        <p>Дев’ять колісниць розглядають згідно свого світогляду. </p>
+        <p>
+          Всі по-різному бачать і по-різному роз’яснюють та, чіпляючись за
+          відмінності, впадають у прив’язаність і помилки.
+        </p>
+        <br />
+        <div>
+          <img className="img-fluid" src={WaterStream} alt="WaterStream" />
         </div>
         <br />
         <hr />
