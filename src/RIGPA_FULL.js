@@ -23,6 +23,7 @@ import duck from "./img/duck.jpeg";
 import WaterStream from "./img/WaterStream.jpg";
 import BuddhaBlossom from "./img/BuddhaBlossom.jpg";
 import brain from "./img/brain.png";
+import wave from "./img/wave.jpeg";
 
 export default function RIGPA_FULL() {
   return (
@@ -868,6 +869,18 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={brain} alt="brain" />
+        </div>
+        <h3>24</h3>
+        <br />
+        <p>Немає явищ, окрім тих, що виникають із розуму. </p>
+        <p>Немає явищ, яким природа розуму перешкоджала би виникнути. </p>
+        <p>
+          Як вода в океані збирається в хвилі, так і ці явища виникають із
+          розуму й, недвойствені розуму, звільняються в розумі же.
+        </p>
+        <br />
+        <div>
+          <img className="img-fluid" src={wave} alt="wave" />
         </div>
         <br />
         <hr />
