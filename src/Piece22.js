@@ -1,10 +1,10 @@
 import React from "react";
 import BuddhaBlossom from "./img/BuddhaBlossom.jpg";
 
-export default function Piece21() {
+export default function Piece22() {
   return (
-    <div className="Piece21">
-      <h3>21</h3>
+    <div className="Piece22">
+      <h3>22</h3>
       <br />
       <p>
         Коли всі явища, що усвідомлюються розумом, виникають, але ти не
