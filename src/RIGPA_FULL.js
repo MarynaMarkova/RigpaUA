@@ -25,6 +25,7 @@ import BuddhaBlossom from "./img/BuddhaBlossom.jpg";
 import brain from "./img/brain.png";
 import wave from "./img/wave.jpeg";
 import meditation from "./img/meditation.jpg";
+import Perception from "./img/Perception.png";
 
 export default function RIGPA_FULL() {
   return (
@@ -913,6 +914,22 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={meditation} alt="meditation" />
+        </div>
+        <h3>26</h3>
+        <br />
+        <p>Події відбуваються, та немає усвідомлення діючої особи. </p>
+        <p>
+          Хоча в речей і немає самобуття, та вони дійсно сприймаються через
+          досвід.{" "}
+        </p>
+        <p>Якщо так практикувати – досягнеш звільнення. </p>
+        <p>
+          Пізнання відбувається через безпосереднє спирання на органи почуттів
+          без утручання інтелекту.
+        </p>
+        <br />
+        <div>
+          <img className="img-fluid" src={Perception} alt="Perception" />
         </div>
         <br />
         <hr />
