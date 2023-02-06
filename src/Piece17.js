@@ -1,5 +1,5 @@
 import React from "react";
-import practise from "./img/practise.jpg";
+import practice from "./img/practice.jpg";
 
 export default function Piece17() {
   return (
@@ -27,7 +27,7 @@ export default function Piece17() {
 
       <br />
       <div>
-        <img className="img-fluid" src={practise} alt="practise" />
+        <img className="img-fluid" src={practice} alt="practice" />
       </div>
     </div>
   );

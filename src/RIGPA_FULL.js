@@ -16,7 +16,7 @@ import zvyah from "./img/zvyah.png";
 import clearSky from "./img/clearSky.jpg";
 import meditator from "./img/meditator.png";
 import DalaiLama from "./img/DalaiLama.jpg";
-import practise from "./img/practise.jpg";
+import practice from "./img/practice.jpg";
 import BuddhaLono from "./img/BuddhaLono.jpg";
 import BuddhaSquirrel from "./img/BuddhaSquirrel.jpg";
 import duck from "./img/duck.jpeg";
@@ -636,7 +636,7 @@ export default function RIGPA_FULL() {
         <p>
           Без споглядання й об’єкту споглядання, та не впадаючи в затьмарення,
           сонливість або збудження, нічого не поліпшуюче сюхвилинне усвідомлення
-          ясне. Ця рівнісність без поліпшення й є дг’яною.{" "}
+          ясне. Ця рівність без поліпшення й є дг’яною.{" "}
         </p>
         <p>Встановлення чи невстановлення розуму – яка різниця.</p>
         <br />
@@ -665,7 +665,7 @@ export default function RIGPA_FULL() {
         <p>Чисте чи нечисте – яка різниця.</p>
         <br />
         <div>
-          <img className="img-fluid" src={practise} alt="practise" />
+          <img className="img-fluid" src={practice} alt="practice" />
         </div>
         <h3>18</h3>
         <br />
@@ -768,7 +768,7 @@ export default function RIGPA_FULL() {
         </p>
         <p>Потік свідомості живих істот не поділений на самсару й нірвану. </p>
         <p>
-          Тому залиш природу розуму, як вона є, не намагаючись її покращити, й
+          Тому залиш природу розуму як вона є, не намагаючись її покращити, й
           досягнеш звільнення.{" "}
         </p>
         <p>
@@ -976,8 +976,8 @@ export default function RIGPA_FULL() {
         <hr />
         <p>Е МА!</p>
         <p>
-          Закінчено текст “Самозвільнення через увагу, яка оголює – пряме
-          введення в Ріґпа”.
+          Закінчено текст «Самозвільнення через увагу, яка оголює – прямий вступ
+          до ріґпи».
         </p>
         <p>
           На користь живим істотам майбутніх поколінь, яким випаде жити в
@@ -995,7 +995,7 @@ export default function RIGPA_FULL() {
           </p>
           складена Падмасамгавою, вчителем із Уддіяни.
         </p>
-        <p>Нехай не закінчиться, поки самсара не опустішає.</p>
+        <p>Нехай не закінчиться, поки самсара не спорожніє.</p>
         <br />
         <div>
           <img className="img-fluid" src={Padmasambhava} alt="Padmasambhava" />
