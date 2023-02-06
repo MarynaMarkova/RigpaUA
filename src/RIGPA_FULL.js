@@ -21,6 +21,7 @@ import BuddhaLono from "./img/BuddhaLono.jpg";
 import BuddhaSquirrel from "./img/BuddhaSquirrel.jpg";
 import duck from "./img/duck.jpeg";
 import WaterStream from "./img/WaterStream.jpg";
+import BuddhaBlossom from "./img/BuddhaBlossom.jpg";
 
 export default function RIGPA_FULL() {
   return (
@@ -826,6 +827,24 @@ export default function RIGPA_FULL() {
         <br />
         <div>
           <img className="img-fluid" src={WaterStream} alt="WaterStream" />
+        </div>
+        <h3>21</h3>
+        <br />
+        <p>
+          Коли всі явища, що усвідомлюються розумом, виникають, але ти не
+          чіпляєшся за ці видимі явища, ти – Будда.{" "}
+        </p>
+        <p>
+          Явище само по собі ще не є помилка, чіплятись за нього – ось у чому
+          помилка.{" "}
+        </p>
+        <p>
+          Коли розпізнав у своєму розумі ці вречевлюючі думки, це й є
+          самозвільнення.
+        </p>
+        <br />
+        <div>
+          <img className="img-fluid" src={BuddhaBlossom} alt="BuddhaBlossom" />
         </div>
         <br />
         <hr />
