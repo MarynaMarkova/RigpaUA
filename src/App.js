@@ -1,7 +1,8 @@
-import RIGPA_FULL from "./RIGPA_FULL.js";
+// import RIGPA_FULL from "./RIGPA_FULL.js";
 import rigpa from "./img/rigpa.png";
 // import Piece27 from "./Piece27.js";
 // import RandomNuber from "./RandomNumber";
+import Meditaions from "./Meditations";
 import "./App.css";
 
 export default function App() {
@@ -18,7 +19,10 @@ export default function App() {
         <div className="Rigpa">
           <img className="img-fluid" src={rigpa} alt="rigpa" />
         </div>{" "}
-        <RIGPA_FULL />
+        <div className="Prayer">
+          <Meditaions />
+        </div>
+        {/* <RIGPA_FULL /> */}
         {/* <RandomNuber /> */}
         {/* <Piece27 /> */}
         <div className="Author">
