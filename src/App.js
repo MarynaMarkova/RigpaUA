@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <a
-        href="https://marynamarkova.github.io/bardo-ua/"
+        href="https://marynamarkova.github.io/rigpa-ua/"
         className="icon"
         title="Go Home"
       >
