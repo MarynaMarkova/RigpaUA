@@ -32,9 +32,7 @@ export default function RIGPA_FULL() {
   return (
     <div className="RIGPA_FULL">
       <h1>Падмасамбгава</h1>
-      <div className="Rigpa">
-        <img className="img-fluid" src={rigpa} alt="rigpa" />
-      </div>{" "}
+
       <br />
       <h2>
         <p>«САМОВИЗВОЛЕННЯ ЧЕРЕЗ УВАГУ, </p>
